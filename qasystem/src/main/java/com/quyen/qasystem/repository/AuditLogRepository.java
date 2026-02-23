@@ -1,0 +1,9 @@
+package com.quyen.qasystem.repository;
+
+import com.quyen.qasystem.entity.AuditLog;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AuditLogRepository
+        extends JpaRepository<AuditLog, Long> {
+}
+
